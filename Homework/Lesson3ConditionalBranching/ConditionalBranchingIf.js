@@ -1,3 +1,4 @@
+// Note: For all the tasks in this file, use only conditional branching (if).
 // Task 1: Check Positive, Negative, or Zero
 // Write a program that takes a number as input and checks if it is positive, negative, or zero.
 // Write your code here

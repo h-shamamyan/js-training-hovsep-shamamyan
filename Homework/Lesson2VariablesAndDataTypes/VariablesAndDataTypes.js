@@ -1,3 +1,4 @@
+// Note: For all the tasks in this file, write the code using both conditional branching (if) and the ternary operator(?).
 // Task 1: Identify When to Use let or const
 // Below are some situations. Decide whether let or const should be used and declare the variables accordingly.
 
