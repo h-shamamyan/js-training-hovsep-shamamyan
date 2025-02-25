@@ -12,7 +12,7 @@
 // < 60 → F
 // Write your code here
 
-// Task 5: Weekend Checker
+// Task 3: Weekend Checker
 // Ask the user to enter a day of the week (e.g., "Monday", "Saturday").
 // Print "It's the weekend!" if it's Saturday or Sunday, otherwise print "It's a weekday".
 // Write your code here

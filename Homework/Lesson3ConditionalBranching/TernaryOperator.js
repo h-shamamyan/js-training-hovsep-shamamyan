@@ -1,3 +1,4 @@
+// Note: For all the tasks in this file, write the code using both and the conditional branching (if) and the ternary operator(?).
 // Task 1: Even or Odd Number
 // Write a program that checks if a number is even or odd.
 // Write two programs one using the conditional branching if
