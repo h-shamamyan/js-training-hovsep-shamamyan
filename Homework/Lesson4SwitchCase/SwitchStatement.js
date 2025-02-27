@@ -1,4 +1,4 @@
-// 1. Basic Calculator
+// Task 1: Basic Calculator
 // Objective:
 // Create a simple calculator that takes two numbers and an operator (+, -, *, /) as input, then performs the corresponding mathematical operation using a switch statement.
 
@@ -16,21 +16,7 @@
 // 10. If the user enters an invalid operator, show an error message.
 // Write your code here:
 
-// 2. Traffic Light System
-// Objective:
-// Create a program that takes a traffic light color (red, yellow, or green) as input and logs an appropriate message about what to do.
-
-// Steps:
-
-//  1. Ask the user to enter a traffic light color (red, yellow, green). Convert the input to lowercase to handle case insensitivity.
-//  2. Use a switch statement to check the color:
-//  3. If red, log "Stop".
-//  4. If yellow, log "Get Ready".
-//  5. If green, log "Go".
-//  6. If the user enters an invalid color, display "Invalid color! Please enter red, yellow, or green."
-// Write your code here:
-
-// 3. Season Finder
+// Task 2: Season Finder
 // Objective:
 // Write a program that takes the name of a month and logs which season it belongs to (Winter, Spring, Summer, or Fall).
 
@@ -44,4 +30,20 @@
 //  7. Autumn: September, October, November
 //  8. Log the corresponding season.
 //  9. If the user enters an invalid month name, log "Invalid month! Please enter a valid month name."
+// Write your code here:
+
+// Task 3: Determine the Age Group
+// Objective:
+// Write a program that takes an age as input and determines which age group the person belongs to using switch(true).
+
+// Steps:
+
+//  1. Request the user to enter their age.
+//  2. Use a switch(true) statement to evaluate the age and categorize it into one of the following groups:
+//     -If the age is less than 0, print "Invalid age".
+//     -If the age is between 0 and 12 (inclusive), print "Child".
+//     -If the age is between 13 and 17 (inclusive), print "Teenager".
+//     -If the age is between 18 and 64 (inclusive), print "Adult".
+//     -If the age is 65 or older, print "Senior".
+//  3. If the user enters a non-numeric value, print "Please enter a valid age."
 // Write your code here:
