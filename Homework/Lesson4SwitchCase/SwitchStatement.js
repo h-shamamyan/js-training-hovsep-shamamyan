@@ -18,21 +18,21 @@
 
 // 2. Traffic Light System
 // Objective:
-// Create a program that takes a traffic light color (red, yellow, or green) as input and prints an appropriate message about what to do.
+// Create a program that takes a traffic light color (red, yellow, or green) as input and logs an appropriate message about what to do.
 
 // Steps:
 
 //  1. Ask the user to enter a traffic light color (red, yellow, green). Convert the input to lowercase to handle case insensitivity.
 //  2. Use a switch statement to check the color:
-//  3. If red, print "Stop".
-//  4. If yellow, print "Get Ready".
-//  5. If green, print "Go".
+//  3. If red, log "Stop".
+//  4. If yellow, log "Get Ready".
+//  5. If green, log "Go".
 //  6. If the user enters an invalid color, display "Invalid color! Please enter red, yellow, or green."
 // Write your code here:
 
 // 3. Season Finder
 // Objective:
-// Write a program that takes the name of a month and prints which season it belongs to (Winter, Spring, Summer, or Fall).
+// Write a program that takes the name of a month and logs which season it belongs to (Winter, Spring, Summer, or Fall).
 
 // Steps:
 
@@ -43,5 +43,5 @@
 //  6. Summer: June, July, August
 //  7. Autumn: September, October, November
 //  8. Log the corresponding season.
-//  9. If the user enters an invalid month name, print "Invalid month! Please enter a valid month name."
+//  9. If the user enters an invalid month name, log "Invalid month! Please enter a valid month name."
 // Write your code here:
