@@ -12,7 +12,9 @@
 // If the input number is outside the range of 1-7, it should return an error message: "Invalid day number. Please enter a number between 1 and 7."
 // The program should be able to process this input and output the correct day, or display an error message if the number is invalid.
 
-const { userInput } = require("./UserInput");
+const { userInput } = require("../../Helpers/UserInputHelper");
+const myInput = userInput("test");
+console.log(myInput);
 
 let weekDay = userInput();
 switch (weekDay) {

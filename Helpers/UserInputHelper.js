@@ -1,9 +1,9 @@
 // npm install readline-sync
 
 // Function to get input synchronously
-function userInput() {
+function userInput(message) {
   const readlineSync = require("readline-sync");
-  let input = readlineSync.question("Please enter your name: "); // Synchronously ask for input
+  let input = readlineSync.question(message ?? "Please enter your input: "); // Synchronously ask for input
   return input;
 }
 
