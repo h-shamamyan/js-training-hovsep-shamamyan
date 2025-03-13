@@ -31,7 +31,6 @@
 //        - 200,001 – 500,000 AMD: 5,500 AMD
 //        - 500,001 – 1,000,000 AMD: 8,500 AMD
 //        - Over 1,000,000 AMD: 15,000 AMD
-//      > The employer must ensure that after all deductions, the employee’s net salary does not fall below the minimum wage (68,000 AMD).
 // 5. The function should return only the net salary amount as a number.
 //    - Formula: Net Salary = grossSalary - Income Tax - Social Security - Stamp Duty
 //    - The returned value should not include additional details, such as breakdowns of deductions.
