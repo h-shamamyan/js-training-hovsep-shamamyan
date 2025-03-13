@@ -9,11 +9,16 @@ const { userInput } = require("./Helpers/UserInputHelper");
 // for (let i = 0; i < 5; ) {
 //   console.log(++i);
 // }
-for (let i = 1; i <= 2; i++) {
-  console.log(`Outer loop iteration: ${i}`);
-
-  for (let j = 1; j <= 3; j++) {
-    console.log(`Inner loop iteration: ${j}`);
-  }
+function sum(a, b) {
+  return a + b;
 }
-console.log("Done!");
+
+let sumOne = function (a, b) {
+  return a + b;
+};
+let sumTwo = sumOne;
+
+console.log(sumTwo);
+
+let a = 2;
+let b = a;
