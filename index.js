@@ -1,24 +1,17 @@
 const { userInput } = require("./Helpers/UserInputHelper");
 
-// console.log("Using counter++ inside loop:");
-// for (let i = 0; i < 5; ) {
-//   console.log(i++);
-// }
+function assignName(callback) {
+  let name;
+  setTimeout(() => {
+    name = "bob";
 
-// console.log("Using ++counter inside loop:");
-// for (let i = 0; i < 5; ) {
-//   console.log(++i);
-// }
-function sum(a, b) {
-  return a + b;
+    return callback(name);
+  }, 100);
+}
+function logName(name) {
+  console.log(name);
+  return name;
 }
 
-let sumOne = function (a, b) {
-  return a + b;
-};
-let sumTwo = sumOne;
-
-console.log(sumTwo);
-
-let a = 2;
-let b = a;
+let name1 = assignName(logName);
+console.log(name1);
