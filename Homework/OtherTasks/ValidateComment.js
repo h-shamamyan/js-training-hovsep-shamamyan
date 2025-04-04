@@ -53,3 +53,54 @@ function validateComment(comment) {
   // Step 6: If no offensive words are found, return the original comment
   return "Comment posted successfully! " + comment;
 }
+
+// Defined the test cases
+const testCases = [
+  {
+    testNumber: "Test 1:",
+    testName: "Valid comment with no offensive words",
+    input: "This is a good comment.",
+    expectedOutput: "Comment posted successfully! This is a good comment.",
+  },
+  {
+    testNumber: "Test 2:",
+    testName: "Comment with an offensive word (case insensitive)",
+    input: "You are an idiot!",
+    expectedOutput:
+      "This comment can't be posted as it contains the word: 'idiot'",
+  },
+  {
+    testNumber: "Test 3:",
+    testName: "Invalid input - comment is not a string (number)",
+    input: 12345,
+    expectedOutput: "Invalid input: Comment must be a string.",
+  },
+  {
+    testNumber: "Test 4:",
+    testName: "Comment with an offensive word in different case",
+    input: "You're such a MORON!",
+    expectedOutput:
+      "This comment can't be posted as it contains the word: 'moron'",
+  },
+];
+
+// Run all test cases
+runTest(testCases);
+
+function runTest(testCases) {
+  testCases.forEach(({ testNumber, testName, input, expectedOutput }) => {
+    const result = validateComment(input);
+
+    if (result === expectedOutput) {
+      // For Passed Test
+      console.log(
+        `${testNumber}  Passed ✅: Assertion passed! Expected and got: "${expectedOutput}"`
+      );
+    } else {
+      // For Failed Test
+      console.log(
+        `${testNumber}  Failed ❌: Expected "${expectedOutput}", but got "${result}"`
+      );
+    }
+  });
+}
