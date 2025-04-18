@@ -70,29 +70,29 @@ Email: bob.henderson@email.com"
      - Must be a string.
      - Must be between 2 and 50 characters.
    - Throws an error if the input is invalid.
-
-💡 Example Usage:
 */
 class Employee {
   // Your code here
 }
+
+// 💡 Example Usage:
 const emp = new Employee(
   "bob",
   "henderson",
   "  Bob.Henderson@email.com ",
   "098666666",
   "QA Automation Engineer",
-  670000,
+  780000,
   true
 );
 
 console.log(emp.info);
-// Employee information: Bob Henderson is a QA Automation Engineer. He works remotely.
-// His salary is 670000 AMD. Phone number: 098666666.
+// Employee information: Bob Henderson is a QA Automation Engineer. He works remotely./He works on-site. (if isRemote = false)
+// His salary is 780000 AMD. Phone number: 098666666.
 // Email: bob.henderson@email.com
 
 emp.raiseSalary(10);
 emp.giveRaise(30000);
-emp.changePosition("Team Lead");
+emp.changePosition("Senior QA Automation Engineer");
 console.log(emp.info);
 // Updated info reflecting new salary and position
