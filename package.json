@@ -1,10 +1,11 @@
 {
   "name": "js-training-hovsep-shamamyan",
   "version": "1.0.0",
+  "type": "module",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "tr1": "node src/training1.js"
+    "index": "node index.js"
   },
   "keywords": [],
   "author": "",
